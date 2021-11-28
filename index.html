@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teamwork 01</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 </head>
 <body>
     <header>
@@ -56,15 +60,47 @@
         </article>
     </section>
     <section>
-        <h2>Gallery</h2>
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
-        <img src="https://via.placeholder.com/300" alt="Img">
+        <div class="container gallery-container">
+            <h1>Galeria Zdjęć</h1>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg">
+                            <img src="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg">
+                            <img src="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg">
+                            <img src="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg">
+                            <img src="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg">
+                            <img src="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg" alt="IMG">
+                        </a>
+                    </div> 
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg">
+                            <img src="https://i.etsystatic.com/7545759/r/il/a2da26/2621923746/il_fullxfull.2621923746_rnxl.jpg" alt="IMG">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
     </section>
     <footer>
         <div><h3>Contact</h3></div>
