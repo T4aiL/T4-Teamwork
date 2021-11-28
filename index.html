@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -102,9 +103,22 @@
             baguetteBox.run('.tz-gallery');
         </script>
     </section>
+
     <footer>
-        <div><h3>Contact</h3></div>
-        <div><h3>Social</h3></div>
+        <div class="footer">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.google.com/" class="fa fa-google"></a>
+            <button type="button" class="btn btn-dark" onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
+        </div>
     </footer>
+    <script>
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+    </script>
 </body>
 </html>
