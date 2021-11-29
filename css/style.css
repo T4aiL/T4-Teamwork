@@ -125,3 +125,16 @@
     border-radius: 3px 0 0 3px;
   }
   
+  #tytul, #tresc {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+  }
+
+  #tresc {
+      top: 75%
+  }
