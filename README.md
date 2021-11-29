@@ -14,3 +14,7 @@ T40901 - Przygotuj grupowo strone zawierajaca nastepujace elementy:
 Publiczne repozytrium tutaj: https://github.com/T4aiL/T4-Teamwork.git
 
 Komunikacja przez wiadomości Librus oraz infrmtktl@gmail.com
+
+Assets:
+
+https://apipheny.io/free-api/
