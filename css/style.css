@@ -95,3 +95,11 @@
    color: white;
  }
  
+ #slider {
+     width: 80vw;
+     height: 300px;
+     border-radius: 15px;
+     border: solid black 1px;
+     margin: auto;
+     margin-top: 20px
+ }
