@@ -18,14 +18,23 @@ let post3 = new Post ("post3", "lorem pusm", "michal", '/img/back.png')
 
 let post = [post1, post2, post3]
 
-function slider() {
+function sliderek() {
+ let tresc = document.getElementById("tresc")
+ let tytul = document.getElementById("tytul")
 
+ tresc.innerHTML = post[slideIndex].tresc
+ tytul.innerHTML = post[slideIndex].tytul
+ slider.style.backgroundImage = "url("+ post[slideIndex].img +")"
+ 
 }
 
 var slideIndex = 0;
-showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  slideIndex += n;
+}
+
+function playloop(){
+setInterval(sliderek(), 16);
 }
