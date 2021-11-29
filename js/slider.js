@@ -17,6 +17,7 @@ let post3 = new Post ("post3", "lorem pusm", "michal", '/img/back.png')
 
 
 let post = [post1, post2, post3]
+console.log(post[0].tytul)
 
 function sliderek() {
  let tresc = document.getElementById("tresc")
@@ -24,6 +25,7 @@ function sliderek() {
 
  tresc.innerHTML = post[slideIndex].tresc
  tytul.innerHTML = post[slideIndex].tytul
+ 
  slider.style.backgroundImage = "url("+ post[slideIndex].img +")"
  
 }
