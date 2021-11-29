@@ -22,7 +22,8 @@ console.log(post[0].tytul)
 function sliderek() {
  let tresc = document.getElementById("tresc")
  let tytul = document.getElementById("tytul")
-
+ slideIndex = slideIndex%post.length
+console.log(post[slideIndex].tytul)
  tresc.innerHTML = post[slideIndex].tresc
  tytul.innerHTML = post[slideIndex].tytul
  
@@ -31,12 +32,13 @@ function sliderek() {
 }
 
 var slideIndex = 0;
-
+var idinterwalu
 // Next/previous controls
 function plusSlides(n) {
   slideIndex += n;
+  console.log(slideIndex)
 }
 
 function playloop(){
-setInterval(sliderek(), 16);
+ idinterwalu = setInterval(sliderek(), 16);
 }
