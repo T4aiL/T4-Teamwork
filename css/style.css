@@ -2,6 +2,13 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.special-title {
+    padding: 40px;
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+}
+
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
