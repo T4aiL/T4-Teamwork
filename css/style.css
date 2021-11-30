@@ -161,6 +161,7 @@ html, body {
 
     width:60%;
     height:200px;
+    box-shadow: 4px 4px 10px -3px rgba(66, 68, 90, 1);
 
   }
   .menu-btn {
@@ -212,3 +213,18 @@ html, body {
     transform: rotate(-45deg) translate(35px, 35px);
   }
   
+  article {
+
+    padding: 5%;
+    border-radius: 10px;
+    background-color:#50b4ce;
+    margin-bottom: 5%;
+    box-shadow: 4px 4px 10px -3px rgba(66, 68, 90, 1);
+
+  }
+
+  .white-text {
+
+    color: white;
+    
+  }
