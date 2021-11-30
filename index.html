@@ -132,7 +132,7 @@
             baguetteBox.run('.tz-gallery');
         </script>
     </section>
-
+    <button   onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
     <footer>
         <div class="footer">
             <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
@@ -140,12 +140,21 @@
             <a href="https://www.google.com/" class="fa fa-google"></a>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-youtube"></a>
             
-            <button type="button" class="btn btn-dark" onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
         </div>
     </footer>
     <script>
-mybutton = document.getElementById("myBtn");
-//window.onscroll = function() {scrollFunction()};
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
 function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
