@@ -173,6 +173,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 28cm;
     width: 80px;
     height: 80px;
     cursor: pointer;
@@ -182,7 +183,7 @@ html, body {
   .menu-btn__burger {
     width: 50px;
     height: 6px;
-    margin-right: 0cm;
+    
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
