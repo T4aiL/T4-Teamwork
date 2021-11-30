@@ -149,3 +149,10 @@ html, body {
   #tresc {
       top: 75%
   }
+
+  .special-article {
+
+    display: flex;
+    justify-content: center;
+
+  }
