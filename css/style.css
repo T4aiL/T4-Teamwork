@@ -225,11 +225,13 @@ html, body {
     background-color:#50b4ce;
     margin-bottom: 5%;
     box-shadow: 4px 4px 10px -3px rgba(66, 68, 90, 1);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.51);
 
   }
 
-  .white-text {
+  .blog_shadow_text {
 
-    color: white;
-    
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.51);
+
   }
