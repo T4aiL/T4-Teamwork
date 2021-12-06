@@ -12,9 +12,66 @@
     ],
     "galery":[
         {
-            "title":"",
-            "author":"",
-            "url":""
+            "title":"mercedez",
+            "author":"khyzyl-saleem",
+            "url":"zdjecia/khyzyl-saleem-190evo-squx-final2.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"huracan",
+            "author":"khyzyl-saleem",
+            "url":"zdjecia/khyzyl-saleem-performante-web.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"ol'mustang2",
+            "author":"khyzyl-saleem",
+            "url":"zdjecia/khyzyl-saleem-shakotan-mustang3.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"ol'mustang",
+            "author":"khyzyl-saleem",
+            "url":"zdjecia/khyzyl-saleem-shakotastang2web.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"audisuv",
+            "author":"unknw",
+            "url":"zdjecia/thumb_24_480_0_0_0_auto__480.png"
+        }
+    ],
+    "galery":[
+        {
+            "title":"pagani huayra",
+            "author":"khyzyl-saleem",
+            "url":"zdjecia/khyzyl-saleem-huayra.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"challangersrt",
+            "author":"unknw",
+            "url":"zdjecia/florian-schneider-799KfBloSFQ-unsplash.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"LOWcivik",
+            "author":"muscleVStuner",
+            "url":"zdjecia/civik.jpg"
+        }
+    ],
+    "galery":[
+        {
+            "title":"benzsuv",
+            "author":"unknw",
+            "url":"zdjecia/6122c4e257abc334522893.png"
         }
     ]
+
 }
