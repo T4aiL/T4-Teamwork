@@ -40,5 +40,5 @@ function plusSlides(n) {
 }
 
 function playloop(){
- idinterwalu = setInterval(sliderek(), 16);
+ idinterwalu = setInterval(sliderek, 1000);
 }
