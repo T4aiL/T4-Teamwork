@@ -9,5 +9,12 @@
             "img":"",
             "thumbnail":""
         }
+    ],
+    "galery":[
+        {
+            "title":"",
+            "author":"",
+            "url":""
+        }
     ]
 }
