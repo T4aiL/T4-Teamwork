@@ -9,9 +9,9 @@ class Post {
 
 const slider = document.getElementById("slider")
 
-let post1 = new Post ("post1", "lorem pusm", "michal", '/img/back.png')
-let post2 = new Post ("post2", "lorem pusm", "michal", '/img/back.png')
-let post3 = new Post ("post3", "lorem pusm", "michal", '/img/back.png')
+let post1 = new Post ("post1", "Tresc posta 1 jest calkiem dluga", "michal", '/img/back.png')
+let post2 = new Post ("post2", "lorem pusm a posta drugiego jest calkiem calkiem", "michal", '/img/back.png')
+let post3 = new Post ("post3", "lorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusmlorem pusm", "michal", '/img/back.png')
 
 
 
@@ -22,6 +22,9 @@ console.log(post[0].tytul)
 function sliderek() {
  let tresc = document.getElementById("tresc")
  let tytul = document.getElementById("tytul")
+ if(slideIndex<0){
+   slideIndex = -slideIndex
+ }
  slideIndex = slideIndex%post.length
 console.log(post[slideIndex].tytul)
  tresc.innerHTML = post[slideIndex].tresc
