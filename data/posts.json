@@ -10,67 +10,72 @@
             "thumbnail":""
         }
     ],
-    "galery":[
+    "post1":[
         {
             "title":"mercedez",
             "author":"khyzyl-saleem",
-            "url":"zdjecia/khyzyl-saleem-190evo-squx-final2.jpg"
+            "url":"zdjecia/khyzyl-saleem-190evo-squx-final2.jpg",
+            "content":"Nowoczesne auto to nie tylko dobre przyspieszenie, przestronna kabina i tak modne rozbudowane multimedia. To także, a może właśnie przede wszystkim, tarcza ochronna w postaci inteligentnych systemów bezpieczeństwa, które dbają o pasażerów podczas jazdy. Zaraz dowiesz się, na jakie systemy możesz liczyć w nowoczesnym samochodzie"
         }
     ],
-    "galery":[
+    "post2":[
         {
             "title":"huracan",
             "author":"khyzyl-saleem",
-            "url":"zdjecia/khyzyl-saleem-performante-web.jpg"
+            "url":"zdjecia/khyzyl-saleem-performante-web.jpg",
         }
     ],
-    "galery":[
+    "post3":[
         {
             "title":"ol'mustang2",
             "author":"khyzyl-saleem",
-            "url":"zdjecia/khyzyl-saleem-shakotan-mustang3.jpg"
+            "url":"zdjecia/khyzyl-saleem-shakotan-mustang3.jpg",
         }
     ],
-    "galery":[
+    "post4":[
         {
             "title":"ol'mustang",
             "author":"khyzyl-saleem",
-            "url":"zdjecia/khyzyl-saleem-shakotastang2web.jpg"
+            "url":"zdjecia/khyzyl-saleem-shakotastang2web.jpg",
         }
     ],
-    "galery":[
+    "post5":[
         {
             "title":"audisuv",
             "author":"unknw",
-            "url":"zdjecia/thumb_24_480_0_0_0_auto__480.png"
+            "url":"zdjecia/thumb_24_480_0_0_0_auto__480.png",
+            "content":"Nowoczesne auto to nie tylko dobre przyspieszenie, przestronna kabina i tak modne rozbudowane multimedia. To także, a może właśnie przede wszystkim, tarcza ochronna w postaci inteligentnych systemów bezpieczeństwa, które dbają o pasażerów podczas jazdy. Zaraz dowiesz się, na jakie systemy możesz liczyć w nowoczesnym samochodzie"
         }
     ],
-    "galery":[
+    "post6":[
         {
             "title":"pagani huayra",
             "author":"khyzyl-saleem",
-            "url":"zdjecia/khyzyl-saleem-huayra.jpg"
+            "url":"zdjecia/khyzyl-saleem-huayra.jpg",
+            "content":"Mercedes-AMG EQS 53 to pierwszy elektryczny model AMG. Dwa silniki o łącznej mocy 761 KM zapewniają mu znakomite osiągi, a akumulator o pojemności 107,8 kWh – zasięg do 586 km. Superelektryk jest już dostępny w ofercie w Polsce."
         }
     ],
-    "galery":[
+    "post7":[
         {
             "title":"challangersrt",
             "author":"unknw",
             "url":"zdjecia/florian-schneider-799KfBloSFQ-unsplash.jpg"
         }
     ],
-    "galery":[
+    "post8":[
         {
             "title":"LOWcivik",
             "author":"muscleVStuner",
-            "url":"zdjecia/civik.jpg"
+            "url":"zdjecia/civik.jpg",
+            "content":"Na przestrzeni kilku ostatnich lat przyzwyczailiśmy się już do sytuacji, że gdy na świecie cena paliw rośnie, dzieje się tak również w Polsce. Ale gdy na świecie cena paliw obniża się, na naszym rynku nie widać żadnych lub prawie żadnych zmian. Tym razem jednak powinno być inaczej, bowiem od poniedziałku 20 grudnia br. w ramach tzw. tarczy antyinflacyjnej obowiązuje obniżona akcyza na paliwa."
         }
     ],
-    "galery":[
+    "post9":[
         {
             "title":"benzsuv",
             "author":"unknw",
-            "url":"zdjecia/6122c4e257abc334522893.png"
+            "url":"zdjecia/6122c4e257abc334522893.png",
+            "content":"Benz klasy G jest SUV-em, który sprosta potrzebom najbardziej wymagających klientów. Stało się to możliwe dzięki atrakcyjnemu projektowi nadwozia skrywającego przestronne i funkcjonalne wnętrze, jak również hybrydowemu silnikowi, który zapewnia świetną dynamikę przy niskim zużyciu paliwa. Nie bez znaczenia jest również wydajny napęd na wszystkie koła oraz bogate wyposażenie i wysoka jakość wykończenia."
         }
     ]
 
